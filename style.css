@@ -1,5 +1,6 @@
 body {
 
+    
     margin: 5px;
     padding: 5px;
     background-size: cover;
@@ -11,8 +12,10 @@ body {
 
 .cabezera {
 
+    display: flex;
     min-height: 120px;
     max-width: 1200px;
+    align-items: center;
 
 }
 
@@ -24,7 +27,7 @@ body {
 }
 
 .column1 {
-    background-color: #e0e0e0;
+    background-color: #6490f5;
     padding: 20px;
     text-align: justify;
     grid-column: span 3;
@@ -34,14 +37,15 @@ body {
 
 .column2 {
    
-    
+    background-color: #567BD1;
     text-align: center;
     grid-column: auto;
     
 }
 
 .pie1 {
-   
+
+    background-color: #243357;
     padding: 20px;
     text-align: center;
     grid-column: span 1;
@@ -50,7 +54,7 @@ body {
 
 .pie2 {
    
-    background-color: aqua;
+    background-color: #344B80;
     padding: 20px;
     text-align: center;
     grid-column: auto;
@@ -60,12 +64,25 @@ body {
 .grid-2 {
     min-height: 80px;
     max-height: 80px;
-    background-color: blue;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
   
-    
 }
+
+
+
+img{
+   
+    height: 60px;
+    width: 60px;
+}
+
+h1{
+    
+    align-items: center;
+    size: 2.5em;
+    margin-left: 20px;
+}
+
 
 
