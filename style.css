@@ -47,7 +47,6 @@ body {
 
     background-color: #243357;
     padding: 20px;
-    text-align: center;
     grid-column: span 1;
     
 }
@@ -62,6 +61,7 @@ body {
 }
 
 .grid-2 {
+    
     min-height: 80px;
     max-height: 80px;
     display: grid;
@@ -82,7 +82,16 @@ h1{
     align-items: center;
     size: 2.5em;
     margin-left: 20px;
+    
 }
 
+.list{
+    list-style-type: none;
+   color: white;
+}
 
+h3{
+    size: 1.5em-bold;
+    color: white;
+}
 
