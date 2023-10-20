@@ -55,9 +55,12 @@ body {
    
     background-color: #344B80;
     padding: 20px;
-    text-align: center;
     grid-column: auto;
     
+}
+
+p{
+    text-align: end;
 }
 
 .grid-2 {
