@@ -1,0 +1,71 @@
+body {
+
+    margin: 5px;
+    padding: 5px;
+    background-size: cover;
+    height: 100vh;
+    
+
+    
+}
+
+.cabezera {
+
+    min-height: 120px;
+    max-width: 1200px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    min-height: 400px;
+}
+
+.column1 {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: justify;
+    grid-column: span 3;
+    
+    
+}
+
+.column2 {
+   
+    
+    text-align: center;
+    grid-column: auto;
+    
+}
+
+.pie1 {
+   
+    padding: 20px;
+    text-align: center;
+    grid-column: span 1;
+    
+}
+
+.pie2 {
+   
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    grid-column: auto;
+    
+}
+
+.grid-2 {
+    min-height: 80px;
+    max-height: 80px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  
+    
+}
+
+
